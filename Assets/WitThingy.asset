@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: WitThingy
+  m_EditorClassIdentifier: 
+  _clientAccessToken: LE66VCDXBNEHELVB7XUUTZ5IOJZOFFHM
+  _appInfo:
+    name: voicedemoprj
+    id: 1030169937953190
+    lang: en
+    isPrivate: 1
+    createdAt: 2023-04-04T12:48:57-0700
+    trainingStatus: 1
+    lastTrainDuration: 39
+    lastTrainedAt: 2023-04-04T13:46:55-0700
+    nextTrainAt: 2023-04-04T13:46:16-0700
+    intents:
+    - id: 814693476941782
+      name: Change_Colour
+      entities:
+      - name: color:color
+        id: 989335672442410
+      - name: shape:shape
+        id: 2052359111822240
+    entities:
+    - name: color
+      id: 847534967004865
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: color
+        id: 989335672442410
+      keywords:
+      - keyword: green
+        synonyms:
+        - green
+    - name: shape
+      id: 1619083778527665
+      lookups:
+      - keywords
+      roles:
+      - name: shape
+        id: 2052359111822240
+      keywords:
+      - keyword: cube
+        synonyms:
+        - box
+        - cube
+    - name: wit$datetime
+      id: 535a810f-8911-4bfe-976a-6e3c193f1251
+      lookups: []
+      roles:
+      - name: datetime
+        id: 549105520703109
+      keywords: []
+    traits: []
+    voices:
+    - name: Charlie
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - fast
+      - projected
+    - name: Cooper
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Prospector
+      locale: en_US
+      gender: male
+      styles:
+      - default
+    - name: Rebecca
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Vampire
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    composer:
+      canvases: []
+  _configurationId: 72c9cdbd-ae18-48cc-a2de-ca04d89c8b63
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  isDemoOnly: 0
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-1b6bca86-b8eb-489a-8713-2c482b4a3f12.json
+  excludedAssemblies:
+  - Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Meta.WitAi.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  relaxedResolution: 0
